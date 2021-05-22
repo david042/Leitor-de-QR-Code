@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" id="br.com.davidguilherme.plugins2" version="1.0.0">
-  <name>Plugins2</name>
+<widget xmlns="http://www.w3.org/ns/widgets" id="br.com.davidguilherme.qrcodescanner" version="1.0.0">
+  <name>Leitor de QR Code</name>
   <description>Made with Monaca (http://monaca.mobi)</description>
   <author/>
   <content src="index.html"/>
@@ -70,8 +70,8 @@
     <icon src="/res/android/icon/hdpi.png" density="hdpi"/>
     <icon src="/res/android/icon/xhdpi.png" density="xhdpi"/>
     <icon src="/res/android/icon/xxhdpi.png" density="xxhdpi"/>
-    <preference name="AndroidXEnabled" value="false"/>
     <icon src="/res/android/icon/xxxhdpi.png" density="xxxhdpi"/>
+    <preference name="AndroidXEnabled" value="false"/>
   </platform>
   <platform name="electron">
     <icon src="/res/electron/icon/icon_electron_512.png" width="512" height="512"/>
@@ -100,5 +100,5 @@
   <preference name="DisallowOverscroll" value="true"/>
   <preference name="Orientation" value="default"/>
   <preference name="SplashScreenDelay" value="0"/>
-  <preference name="Fullscreen" value="false"/>
+  <preference name="Fullscreen" value="true"/>
 </widget>

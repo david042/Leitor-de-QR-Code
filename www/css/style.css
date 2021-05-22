@@ -1,2 +1,12 @@
-/**/
+body{
+  background-color: black;
+}
 
+div{
+  height: 100vh;
+}
+
+button{
+  width: 100px;
+  height: 100px;
+}
