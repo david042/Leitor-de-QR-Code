@@ -48,4 +48,5 @@ it just scan the code and display the result in text
 * RSS_EXPANDED
 * AZTEC
 
-# Dowload
+# Download
+[Aqui | Here](https://github.com/david042/Leitor-de-QR-Code/releases/download/v1/20210523083816-app-debug.apk)
