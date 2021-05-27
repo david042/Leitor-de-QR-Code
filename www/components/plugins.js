@@ -4,7 +4,8 @@ $(document).on("click", "#codigo", function(){
       var cancelado = result.cancelled;
 
       if(cancelado === false){
-        navigator.notification.alert("Resultado: " + result.text + "\n" + "Formato: " + result.format, null, "Habēmus Cōdicem Barrae");
+        var resultado = $("#result");
+        resultado.text(result.text);
       }
     },
     function (error) {

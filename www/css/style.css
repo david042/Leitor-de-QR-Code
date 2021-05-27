@@ -1,12 +1,19 @@
-body{
-  background-color: black;
-}
-
-div{
-  height: 100vh;
+h2{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 button{
-  width: 100px;
-  height: 100px;
+  width: 90%;
+  height: 50px;
+}
+
+#resultado{
+  height: 90%;
+}
+
+#result{
+  font-size: 20px;
+  padding-left: 20px;
 }
